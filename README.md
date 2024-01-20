@@ -1,4 +1,4 @@
-# AgentZero - A minimal and powerful tool calling agent.
+# AgentZero - A minimal tool calling agent.
 
 Welcome to AgentZero.
 The goal is to create a minimal, opinionated LLM agent that is proficient in task execution and tool calling.
