@@ -1,7 +1,7 @@
 # AgentZero - A minimal and powerful tool calling agent.
 
 Welcome to AgentZero.
-The goal is to create a minimal, opinionated LLM agent that can be used as is in projects.
+The goal is to create a minimal, opinionated LLM agent that is proficient in task execution and tool calling.
 
 Here are the functionalities I eventually want to add - 
 
