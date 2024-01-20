@@ -1,0 +1,18 @@
+[tool.poetry]
+name = "agent"
+version = "0.1.0"
+description = "A simple and minimal LLM powered agent."
+authors = ["Pankaj Garkoti <garkotipankaj@gmail.com>"]
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = "^3.10"
+requests = "^2.31.0"
+demjson3 = "^3.0.6"
+pendulum = "^3.0.0"
+openai = "^1.7.2"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
