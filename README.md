@@ -6,7 +6,7 @@ The goal is to create a minimal, opinionated LLM agent that is proficient in tas
 Here are the functionalities I eventually want to add - 
 
 - [ ]  Long running processes in which working memory is summarized as execution proceeds.
-- [ ]  Goal expansion and breakdown. Ability to break down goald into steps before starting execution.
+- [ ]  Goal expansion and breakdown. Ability to break down goals into steps before starting execution.
 - [ ]  Asynchronous check on execution status. While running a longer task, ability to get a status check without interrupting execution.
 
 This Agent does not have to be useful or modular or pluggable into any other applications.
