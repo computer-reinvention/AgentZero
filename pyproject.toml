@@ -1,5 +1,5 @@
 [tool.poetry]
-name = "agent"
+name = "agentzero"
 version = "0.1.0"
 description = "A simple and minimal LLM powered agent."
 authors = ["Pankaj Garkoti <garkotipankaj@gmail.com>"]

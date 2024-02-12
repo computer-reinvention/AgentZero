@@ -5,8 +5,8 @@ File demonstrating the agent and toolset.
 import pprint
 import requests
 
-from agent import Agent
-from toolset import ToolSet
+from agentzero.agent import Agent
+from agentzero.toolset import ToolSet
 
 toolset = ToolSet(["testing"])
 
