@@ -8,11 +8,11 @@ import requests
 from agentzero.agent import Agent
 from agentzero.toolset import ToolSet
 
-toolset = ToolSet(["testing"])
+toolset = ToolSet({}, ["testing"])
 
 
 @toolset.register
-def execute(code: str) -> str:
+def execute(code: str, *args, **kwargs) -> str:
     """
     A function that evaluates arbitrary python code at runtime using exec().
     Be sure to assign results of your computation to a variable called "RES".
