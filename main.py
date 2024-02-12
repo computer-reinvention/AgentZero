@@ -38,7 +38,7 @@ def main():
         """1. Find out details about your current working directory - which contains your source code.
 2. Examine the contents of test.py.
 3. Create a copy of test.py but replace the instructions in main() with something funny (non-destructive).
-4. Run another instance of yourself and observer it's behaviour.
+4. Run another instance of yourself and observe it's behaviour.
 5. Report your findings."""
     )
 

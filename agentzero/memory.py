@@ -1,4 +1,4 @@
-from utils import Message
+from agentzero.utils import Message
 
 
 class WorkingMemory:

@@ -3,12 +3,12 @@ import pprint
 import openai
 import pendulum
 
-from format import Format
-from memory import WorkingMemory
-from parser import correcting_json_parser
-from templates import SYS_PROMPT_USR
-from tools import Tool, ToolResponse, ToolResponseType
-from utils import ChatRoles, Message
+from agentzero.format import Format
+from agentzero.memory import WorkingMemory
+from agentzero.parser import correcting_json_parser
+from agentzero.templates import SYS_PROMPT_USR
+from agentzero.tools import Tool, ToolResponse, ToolResponseType
+from agentzero.utils import ChatRoles, Message
 
 
 class Agent:
