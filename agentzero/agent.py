@@ -16,6 +16,7 @@ class Agent:
         self,
         model: str = "gpt-4-1106-preview",
         max_iter: int = 2,
+        temperature: float = 0.2,
         tools: list[Tool] = [],
     ):
         self.MODEL = model
@@ -24,6 +25,7 @@ class Agent:
         self.current_input = None
         self.tool_dict = {tool.name: tool for tool in tools}
         self.memory = WorkingMemory([])
+        self.temperature = temperature
 
     def _initialize_memory(self):
         """
@@ -72,7 +74,7 @@ class Agent:
             res = openai.chat.completions.create(
                 model=self.MODEL,
                 messages=self.memory.dict_messages,
-                temperature=0.8,
+                temperature=self.temperature,
             )
         except Exception as exc:
             print("Exception in API Call : ", exc)
